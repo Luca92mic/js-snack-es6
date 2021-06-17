@@ -48,7 +48,7 @@ const nArray = [];
 
 for (let i = 0; i < arraySquadre.length; i++){
     let {nome, falli} = arraySquadre[i];
-    punti = randNum(10,30);
+    let punti = randNum(10,30);
     arraySquadre[i].punti = punti;
     falli = randNum(15,50);
     arraySquadre[i].falli = falli;
